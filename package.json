@@ -1,0 +1,23 @@
+{
+  "name": "sedona",
+  "version": "1.0.0",
+  "description": "The adaptive web-site Sedona (with using BEM)/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slava-Nik/sedona.git"
+  },
+  "author": "Слава Николаевич",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slava-Nik/sedona/issues"
+  },
+  "homepage": "https://github.com/Slava-Nik/sedona#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
