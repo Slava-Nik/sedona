@@ -1,6 +1,20 @@
-$body-color: pink;
-
-
-body{
-	background-color: $body-color;
-}
+@import "global/fonts.scss";
+@import "global/normalize.scss";
+@import "global/mixins.scss";
+@import "global/variables.scss";
+@import "global/global-styles.scss";
+@import "blocks/main-header.scss";
+@import "blocks/navigation.scss";
+@import "blocks/introduce.scss";
+@import "blocks/main-page.scss";
+@import "blocks/advantages.scss";
+@import "blocks/advantages-item.scss";
+@import "blocks/advantages-list-item.scss";
+@import "blocks/find-hotel.scss";
+@import "blocks/main-footer.scss";
+@import "blocks/main-logo.scss";
+@import "blocks/toggle-menu.scss";
+@import "blocks/advantages-list.scss";
+@import "blocks/main-map.scss";
+@import "blocks/social-links.scss";
+@import "blocks/social-links-item.scss";

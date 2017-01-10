@@ -1,0 +1,50 @@
+body {
+	min-width: 320px;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	color: $primary-txt-color;
+	background-color: $primary-bg-color;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+.visually-hidden {
+	display: none;
+}
+
+// @media (min-width: $tablet-width){
+// 	body{
+// 		min-width: $tablet-width;
+// 	}
+// }
+
+// @media (min-width: $desktop-width){
+// 	body{
+// 		min-width: $desktop-width;
+// 	}
+// }
+
+
+.global-wrapper {
+	width: 320px;
+	margin: 0 auto;
+	box-shadow: 0 -5px 9px 2px #dbdbdb;
+
+}

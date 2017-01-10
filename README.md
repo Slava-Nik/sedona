@@ -1,1 +1,1 @@
-The adaptive web-site Sedona (with using BEM)
+The adaptive web-site Sedona (with using BEM,Sass,Gulp). (PSD has been taken from HTML Academy, thanks to them!)
