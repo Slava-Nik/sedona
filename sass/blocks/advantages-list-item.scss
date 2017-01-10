@@ -1,3 +1,49 @@
 .advantages-list-item{
-	
+	position: relative;
+	float: none;
+	padding-top: 25px;
+	padding-left: 50px;
+
+	&::before {
+		content: ""; 
+		position: absolute;
+		top: 10px;
+		left: 0;
+		width: 40px;
+		height: 47px;
+		background-position: 50% 50%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	&--house::before{
+		background-image: url("../img/icon-house.svg");
+	}
+	&--food::before{
+		background-image: url("../img/icon-burger.svg");
+	}
+	&--gift::before{
+		background-image: url("../img/icon-gift.svg");
+	}
 }
+
+
+
+.advantages-list-item__title {
+	padding-bottom: 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.advantages-list-item__content {
+	padding-bottom: 25px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.advantages__photo {
+	width: 320px;
+	height: 260px;
+}
+
+

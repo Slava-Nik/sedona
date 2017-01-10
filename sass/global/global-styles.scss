@@ -29,6 +29,12 @@ p {
 	display: none;
 }
 
+.btn {
+	border: none;
+	outline: none;
+	background-color: $secondary-bg-color;
+	color: $secondary-txt-color
+}
 // @media (min-width: $tablet-width){
 // 	body{
 // 		min-width: $tablet-width;
