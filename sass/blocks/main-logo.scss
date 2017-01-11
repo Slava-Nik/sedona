@@ -6,3 +6,10 @@
 	transform: translateX(-50%);
 	z-index: 500;
 }
+
+@media(min-width: $tablet-width){
+	.main-logo {
+		top: -59px;
+	}
+	
+}

@@ -21,3 +21,13 @@
    color: #333;
    line-height: 1.7;
 }
+
+@media (min-width: $tablet-width){
+	.advantages__slogan{
+		padding: 50px 108px;
+		padding-bottom: 20px;
+	}
+	.advantages__text{
+		padding-bottom: 55px;
+	}
+}

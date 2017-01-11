@@ -21,6 +21,22 @@
 .introduce__img {
 	position: relative;
 	top: 50%;
-	left: 0;
-	width: 100%;
+	// left: 50%;
+	width: 274px;
+
+}
+
+
+@media (min-width: $tablet-width){
+	.introduce {
+		background-image: url("../img/bg-back-tablet@1x.jpg");
+		&::after {
+			height: 60px;
+			background-image: url("../img/bg-intro-triangle-tablet.svg");
+		}
+	}
+	.introduce__img {
+		width: 460px;
+		left: 18%;
+	}
 }

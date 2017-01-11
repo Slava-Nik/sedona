@@ -4,7 +4,7 @@
 }
 
 .navigation__item {
-
+	float: none;
 }
 
 .navigation__link {
@@ -32,4 +32,47 @@
 	width: 22px;
 	height: 22px;
 	background-image: url("../img/icon-cross.svg");
+}
+
+
+@media (min-width: $tablet-width){
+
+
+	.navigation {
+		background-color: $primary-bg-color;
+	}
+
+	.navigation__list {
+		@include clearfix();
+	}
+
+	.navigation__item {
+		display: inline-block;
+		width: 19.5%;
+	}
+	.navigation__item:nth-child(2){
+		margin-right: 20%;
+	}
+
+	.navigation__link {
+		border-bottom: none;
+		font-size: 14px;
+		color: $primary-txt-color;
+
+		&:hover {
+			background-color: transparent;
+			color: #81b3d2;
+		}	
+		&:active {
+			background-color: transparent;
+		}
+	}
+
+
+
+	.navigation__button-close{
+		display: none;
+	}
+
+
 }
