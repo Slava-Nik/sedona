@@ -6,14 +6,16 @@
 	text-transform: uppercase;
 }
 
+.main-footer__wrapper {
+	padding-top: 45px;
+}
+
 .main-footer__invitation-tag {
-	padding: 40px 0;
+	padding-bottom: 40px;
 	font-size: 21px;
 }
 
-.main-footer__created-wrapper{
 
-}
 
 .main-footer__text {
 	display: inline-block;
@@ -25,4 +27,20 @@
 .main-footer__logo {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+@media (min-width: $tablet-width){
+	.main-footer__invitation-tag{
+		display: inline-block;
+		width: 31.5%;
+		vertical-align: middle;
+		padding-bottom: 0;
+	}
+	.main-footer__created-wrapper{
+		display: inline-block;
+		width: 31.5%;
+
+	}
+
+
 }

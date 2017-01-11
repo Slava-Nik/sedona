@@ -1,7 +1,12 @@
 .main-map {
 	position: relative;
-	width: 320px;
+	width: 100%;
 	height: 350px;
+	overflow: hidden;  //Пока не заменил изображения
+}
+
+.main-map__image {
+	width: 100%;
 }
 
 .main-map__marker{
@@ -13,5 +18,6 @@
 	border: 5px solid #ffffff;
 	border-radius: 50%;
 	background-color: $secondary-bg-color;
-
 }
+
+

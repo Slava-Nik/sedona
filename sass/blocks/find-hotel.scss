@@ -24,3 +24,28 @@
 	margin-bottom: 50px;
 	font-size: 21px;
 }
+
+@media (min-width: $tablet-width){
+	.find-hotel {
+		padding-top: 58px;
+	}
+	.find-hotel__question{
+		font-size: 30px;
+		margin-bottom: 36px;
+	}
+
+	.find-hotel__content {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.find-hotel__button {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 60px;
+	}
+
+}

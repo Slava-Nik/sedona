@@ -2,3 +2,12 @@
 	margin-bottom: 40px;
 	font-size: 0;
 }
+
+@media (min-width: $tablet-width){
+	.social-links{
+		display: inline-block;
+		width: 31.5%;
+		vertical-align: bottom;
+		margin-bottom: 0;
+	}
+}
