@@ -52,8 +52,11 @@ p {
 	}
 }
 
-// @media (min-width: $desktop-width){
-// 	body{
-// 		min-width: $desktop-width;
-// 	}
-// }
+@media (min-width: $desktop-width){
+	body{
+		min-width: $desktop-width;
+	}
+	.global-wrapper {
+		width: $desktop-width;
+	}
+}

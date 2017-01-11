@@ -2,7 +2,9 @@
 	position: relative;
 	background-color: $secondary-bg-color;
 }
-
+.navigation--hidden{
+	display: none;
+}
 .navigation__item {
 	float: none;
 }
@@ -37,9 +39,9 @@
 
 @media (min-width: $tablet-width){
 
-
 	.navigation {
 		background-color: $primary-bg-color;
+		display: block;
 	}
 
 	.navigation__list {
@@ -67,8 +69,6 @@
 			background-color: transparent;
 		}
 	}
-
-
 
 	.navigation__button-close{
 		display: none;

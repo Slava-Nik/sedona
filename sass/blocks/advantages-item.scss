@@ -1,6 +1,7 @@
 
 .advantages-item__content-wrapper{
-	padding: 0 20px;
+	padding-left: 5.8%;
+	padding-right: 5.8%; 
 	text-align: center;
   text-transform: uppercase;
   font-weight: 500;
@@ -75,9 +76,9 @@
 		float: right;
 	}
 	.advantages-item__content-wrapper{
-		width: 28.125%;
+		width: 21.4%;
 		height: 100%;
-		max-width: 256px;
+		max-width: 405px;
 		float: left;
 	}
 	.advantages-item__content--right {
@@ -86,7 +87,7 @@
 	.advantages-item__photo {
 		height: 100%;
 		width: 67%;
-		max-width: 512px;
+		max-width: 804px;
 		float: left;
 	}
 	.advantages-item__slogan {
@@ -96,3 +97,4 @@
 	 
   }
 }
+

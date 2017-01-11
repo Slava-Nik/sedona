@@ -30,15 +30,21 @@
 }
 
 @media (min-width: $tablet-width){
+	.main-footer {
+		padding-left: 7.8%;
+		padding-right: 7.8%;
+	}
 	.main-footer__invitation-tag{
 		display: inline-block;
-		width: 31.5%;
+		width: calc(100%/3);
 		vertical-align: middle;
 		padding-bottom: 0;
+		text-align: left;
 	}
 	.main-footer__created-wrapper{
 		display: inline-block;
 		width: 31.5%;
+		text-align: right;
 
 	}
 

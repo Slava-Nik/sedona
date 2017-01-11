@@ -30,3 +30,11 @@
 	}
 
 }
+
+
+@media (min-width: $tablet-width){
+	.toggle-menu{
+		display: none;
+	}
+}
+
