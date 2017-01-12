@@ -1,0 +1,42 @@
+.posts-item {
+	padding: 20px 20px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.posts-item__photo {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 18px;
+}
+
+.posts-item__title {
+	margin-bottom: 12px;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.posts-item__author{
+	
+	font-weight: 500;
+	text-align: left;
+}
+
+.posts-item__likes {
+	position: relative;
+	display: block;
+	padding-top: 10px;
+	padding-left: 35px;
+
+	&::before{
+		content: "";
+		position: absolute;
+		top: 8px;
+		left: 0;
+		width: 26px;
+		height: 26px;
+		background: url("../img/icon-like.svg") no-repeat;
+	}
+}
+

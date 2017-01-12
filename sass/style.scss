@@ -5,6 +5,7 @@
 @import "global/global-styles.scss";
 @import "blocks/main-header.scss";
 @import "blocks/navigation.scss";
+@import "blocks/header-content.scss";
 @import "blocks/introduce.scss";
 @import "blocks/main-page.scss";
 @import "blocks/advantages.scss";
@@ -18,3 +19,10 @@
 @import "blocks/main-map.scss";
 @import "blocks/social-links.scss";
 @import "blocks/social-links-item.scss";
+
+// photo page 
+
+@import "blocks/posts.scss";
+@import "blocks/posts-item.scss";
+@import "blocks/presentation.scss";
+@import "blocks/video-player.scss";

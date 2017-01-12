@@ -2,105 +2,111 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Фотографии- Седона/title>
+	<title>Фотографии- Седона</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
+</head>
+<body>
+	<div class="global-wrapper">
 		<header class="main-header">
 			<div class="main-header__wrapper">
-				<nav class="navigation">
+				<nav class="navigation navigation--hidden" id="menu">
 					<ul class="navigation__list">
-						<li class="navigation__item"><a href="#" class="navigation__link">Главная</a></li>
+						<li class="navigation__item"><a href="index.html" class="navigation__link">Главная</a></li>
 						<li class="navigation__item  navigation__item--active"><a href="#" class="navigation__link">Фото и видео</a></li>
 						<li class="navigation__item"><a href="#" class="navigation__link">Форма отзыва</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Html Academy</a></li>		
+						<li class="navigation__item"><a href="#" class="navigation__link">Html Academy</a></li>
 					</ul>
+					<div class="navigation__button-close" onclick="menu.classList.add('navigation--hidden')"></div>
 				</nav>
 				<div class="main-header__media-wrapper">
 					<div class="main-logo">
-						<img src="img/logo.jpg" alt="Логотип 'Седона'">
+						<img src="img/logo-sedona-mobile.svg" alt="Логотип 'Седона'">
 					</div>
-					<button class="toggle" type="button">Открыть меню</button>	
+					<button class="toggle-menu" type="button" onclick="menu.classList.remove('navigation--hidden')">Открыть меню</button>
 				</div>
 			</div>
 			<div class="introduce">
-				<img class="introduce__img" src="img/introduce.jpg" alt="Welcome to the gorgeous Sedona!">
+				<img class="introduce__img" src="img/text-sedona.svg" alt="Welcome to the gorgeous Sedona!">
 			</div>
 		</header>
 		<main class="main-page">
-			<div class="header-content">
-				<h2 class="header-content__title">Фото и видео</h2>
-				<p class="header-content__text">Не можете решиться на путешествие из-за курса? Фотографии помогут забыть вам о политике и экономике.</p>
-			</div>
-			<section class="posts">
-				<article class="posts-item">
-					<img class="posts-item__photo" src="" alt="Невероятные просторы!">
-					<h3 class="posts-item__title">Неродные просторы</h3>
-					<p class="posts-item__author">Автор фото: Борис</p>
-					<a class="posts-item__likes" href="#">1350</a>
-				</article>
+			<div class="main-page__wrapper">
+				<div class="header-content">
+					<h2 class="header-content__title">Фото и видео</h2>
+					<p class="header-content__text">Не можете решиться на путешествие из-за курса? Фотографии помогут забыть вам о политике и экономике.</p>
+				</div>
+				<section class="posts">
+					<article class="posts-item">
+						<img class="posts-item__photo" src="img/photo-1-mobile%401x.jpg" alt="Неродные просторы">
+						<h3 class="posts-item__title">Неродные просторы</h3>
+						<p class="posts-item__author">Автор фото: Борис</p>
+						<a class="posts-item__likes" href="#">1350</a>
+					</article>
 
-				<article class="posts-item">
-					<img class="posts-item__photo" src="" alt="Местная растительность!">
-					<h3 class="posts-item__title">Местная растительность</h3>
-					<p class="posts-item__author">Автор фото: Сергей</p>
-					<a class="posts-item__likes" href="#">143</a>
-				</article>
+					<article class="posts-item">
+						<img class="posts-item__photo" src="img/photo-2-mobile@1x.jpg" alt="Местная растительность!">
+						<h3 class="posts-item__title">Местная растительность</h3>
+						<p class="posts-item__author">Автор фото: Сергей</p>
+						<a class="posts-item__likes" href="#">143</a>
+					</article>
 
-				<article class="posts-item">
-					<img class="posts-item__photo" src="" alt="Дорога на север!">
-					<h3 class="posts-item__title">Дорога на север</h3>
-					<p class="posts-item__author">Автор фото: Пётр</p>
-					<a class="posts-item__likes" href="#">96</a>
-				</article>
+					<article class="posts-item">
+						<img class="posts-item__photo" src="img/photo-3-mobile@1x.jpg" alt="Дорога на север!">
+						<h3 class="posts-item__title">Дорога на север</h3>
+						<p class="posts-item__author">Автор фото: Пётр</p>
+						<a class="posts-item__likes" href="#">96</a>
+					</article>
 
-				<article class="posts-item">
-					<img class="posts-item__photo" src="" alt="Мост дьявола!">
-					<h3 class="posts-item__title">Мост дьявола</h3>
-					<p class="posts-item__author">Автор фото: Антон</p>
-					<a class="posts-item__likes" href="#">254</a>
-				</article>
+					<article class="posts-item">
+						<img class="posts-item__photo" src="img/photo-bridge-mobile@1x.jpg" alt="Мост дьявола!">
+						<h3 class="posts-item__title">Мост дьявола</h3>
+						<p class="posts-item__author">Автор фото: Антон</p>
+						<a class="posts-item__likes" href="#">254</a>
+					</article>
 
-			</section>
+				</section>
 
-			<div class="presentation">
-				<h3 class="presentation__title">Всё ещё сомневаетесь?</h3>
-				<p class="presentation__content">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-				<div class="video-player">
-					<img class="video-player__image" src="" alt="Плеер">
-					<div class="video-player__bar">
-						<div class="video-player__indicator">
-							<div class="video-player__toggle"></div>
-						</div>
-						<div class="video-player__toolbar">
-							<div class="video-player__toolbar-wrapper">
-								<button class="video-player__btn  video-player__replay" type="button"></button>
-								<button class="video-player__btn  video-player__subtitles" type="button"></button>
-								<button class="video-player__btn  video-player__scale" type="button"></button>
+				<div class="presentation">
+					<h3 class="presentation__title">Всё ещё сомневаетесь?</h3>
+					<p class="presentation__content">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+					<div class="video-player">
+						<img class="video-player__image" src="img/video-mobile@1x.jpg" alt="Плеер">
+						<div class="video-player__block">
+							<div class="video-player__bar">
+								<div class="video-player__indicator">
+									<div class="video-player__toggle"></div>
+								</div>
 							</div>
+							<div class="video-player__toolbar">
+								<div class="video-player__toolbar-wrapper">
+									<button class="video-player__btn  video-player__btn--replay" type="button"></button>
+									<button class="video-player__btn  video-player__btn--fullscreen" type="button"></button>
+									<button class="video-player__btn  video-player__btn--subtitles" type="button"></button>
+								</div>
+							</div>
+							
 						</div>
 					</div>
-				</div>
-			</div>		
-
+				</div>		
+			</div>
 		</main>
 
 		<footer class="main-footer">
 			<p class="main-footer__invitation-tag">#visitsedona</p>
 			<div class="social-links">
-				<a class="social-links-item  social-links-item--twitter" href="#">Twitter</a>
-				<a class="social-links-item  social-links-item--facebook" href="#">Facebook</a>
-				<a class="social-links-item  social-links-item--youtube" href="#">Youtube</a>
+				<a class="social-links-item  social-links-item--twitter  btn" href="#">Twitter</a>
+				<a class="social-links-item  social-links-item--facebook  btn" href="#">Facebook</a>
+				<a class="social-links-item  social-links-item--youtube  btn" href="#">Youtube</a>
 			</div>
 			<div class="main-footer__created-wrapper">
 				<p class="main-footer__text">Разработано</p>
-				<img class="main-footer__logo" src="img/academy.jpg" alt="Html Academy">
+				<img class="main-footer__logo" src="img/logo-htmlacademy.svg" alt="Html Academy">
 			</div>
 		</footer>
 
+	</div>
 
-
-	</body>
-	</html>
+</body>
+</html>
 
