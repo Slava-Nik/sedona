@@ -30,5 +30,15 @@
 	}
 	.presentation__content{
 		margin-bottom: 80px;
+		width: 65%;
+	}
+}
+
+@media (min-width: $desktop-width){
+	.presentation {
+		padding-top: 75px;
+	}
+	.presentation__content{
+		width: 36%;
 	}
 }

@@ -7,3 +7,9 @@
 		padding: 0 60px;
 	}
 }
+
+@media (min-width: $desktop-width){
+	.main-page--photos{
+		padding: 0 0;
+	}
+}

@@ -55,6 +55,9 @@
 		display: inline-block;
 		width: 50%;
 	}
+	.posts-item:nth-child(n+2) .posts-item__photo {
+		height: 268px;
+	}	
 	.posts-item__info{
 		@include clearfix();
 		padding-bottom: 20px;
@@ -78,3 +81,25 @@
 	}
 }
 
+
+@media (min-width: $desktop-width){
+
+	.posts-item:nth-child(n+2){
+		width: calc(100%/3);
+	}
+	.posts-item{
+		position: relative;
+	}
+	.posts-item__info{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: rgba(0,0,0,0.3);
+		color: #ffffff;
+		z-index: 100;
+	}
+	.posts-item__likes {
+		color: #ffffff;
+	}
+
+}
