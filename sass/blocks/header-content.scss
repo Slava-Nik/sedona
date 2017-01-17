@@ -24,14 +24,19 @@
 }
 
 
+
 @media (min-width: $tablet-width){
 	.header-content__title{
 		width: 65%;
 		padding-top: 50px;
 		padding-bottom: 20px;
 	}
+	.header-content__title--big{
+		padding-top: 75px;
+		font-size: 30px;
+	}
 	.header-content__text{
-		width: 70%;
+		width: 75%;
 		padding-bottom: 55px;
 	}
 }

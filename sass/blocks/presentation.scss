@@ -20,3 +20,15 @@
 	font-weight: 500;
 	font-size: 14px;
 }
+
+@media (min-width: $tablet-width){
+	.presentation {
+		padding-top: 45px;
+	}
+	.presentation__title{
+		font-size: 30px;
+	}
+	.presentation__content{
+		margin-bottom: 80px;
+	}
+}
