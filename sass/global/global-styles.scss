@@ -26,6 +26,42 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin: 0;
 }
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+input {
+	margin: 0;
+}
+::-webkit-input-placeholder {
+	color:#000000;
+}
+::-moz-placeholder {
+	color:#000000;
+}
+:-moz-placeholder {
+	color:#000000;
+}
+:-ms-input-placeholder {
+	color:#000000;
+}
+
+:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+:focus::-moz-placeholder {
+	color: transparent;
+}
+:focus:-moz-placeholder {
+	color: transparent;
+}
+:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+
 .visually-hidden {
 	display: none;
 }
