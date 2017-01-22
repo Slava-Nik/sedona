@@ -34,12 +34,12 @@
     </header>
     <main class="main-page">
       <div class="header-content">
-        <h2 class="header-content__title">Оставьте свой отзыв</h2>
+        <h2 class="header-content__title  header-content__title--big">Оставьте свой отзыв</h2>
         <p class="header-content__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </div>
       <form class="form-feedback" action="#" method="post">
         <fieldset class="form-feedback__set  form-feedback__set--right">
-          <legend class="form-feedback__title">Представьтесь<span class="form-feedback__title--visibility-hidden">, пожалуйста</span>:</legend>
+          <legend class="form-feedback__title  form-feedback__title--align-left">Представьтесь<span class="form-feedback__title--visibility-hidden">, пожалуйста</span>:</legend>
           <div class="form-feedback__presentation-wrapper">
             <label class="form-feedback__label" for="name">Имя:</label>
             <input class="form-feedback__input" type="text" name="name" id="name" placeholder="Петр">
@@ -55,19 +55,22 @@
         </fieldset>
         <fieldset class="form-feedback__set  form-feedback__set--wide">
           <legend class="form-feedback__title  form-feedback__title--wide"><span class="form-feedback__title--visible-index">Контактная информация:</span></legend>
+          <div class="form-feedback__external-wrapper">
           <div class="form-feedback__inside-wrapper  form-feedback__inside-wrapper--phone">
-            <label class="form-feedback__label  form-feedback__label--contacts" for="phone">Контактный телефон:</label>
+            <label class="form-feedback__label  form-feedback__label--contacts" for="phone"><span class="form-feedback__label--visibility-hidden">Контактный</span> телефон:</label>
             <input class="form-feedback__input  form-feedback__input--contacts  form-feedback__input--contacts-phone" type="tel" name="phone" id="phone" placeholder="Введите телефон">
             <div class="form-feedback__input-error" id="error-phone">Ошибка, перепроверьте номер</div>
           </div>
           <div class="form-feedback__inside-wrapper  form-feedback__inside-wrapper--email">
-            <label class="form-feedback__label  form-feedback__label--contacts" for="email">Электронная почта:</label>
+            <label class="form-feedback__label  form-feedback__label--contacts  form-feedback__label--email" for="email">Электронная почта:</label>
             <input class="form-feedback__input  form-feedback__input--contacts    form-feedback__input--contacts-mail" type="email" name="email" id="email" placeholder="Введите e-mail">
             <div class="form-feedback__input-error" id="error-email" hidden>Ошибка, перепроверьте email</div>
           </div>
+        </div>   
+
         </fieldset>
         <fieldset class="form-feedback__set  form-feedback__set--left">
-          <legend class="form-feedback__title">Ваше общее впечатление:</legend>
+          <legend class="form-feedback__title  form-feedback__title--align-onlyleft">Ваше общее впечатление:</legend>
           <input class="form-feedback__input  form-feedback__input--radio" type="radio" name="impression" id="radio-positive">
           <label class="form-feedback__label  form-feedback__label--radio" for="radio-positive">Скорее положительное</label>
           <input class="form-feedback__input  form-feedback__input--radio" type="radio" name="impression" id="radio-negative">

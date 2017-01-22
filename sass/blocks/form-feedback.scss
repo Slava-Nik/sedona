@@ -238,6 +238,7 @@
 }
 
 @media (min-width: $tablet-width){
+
 	.form-feedback{
 		box-sizing: border-box;
 		display: flex;
@@ -248,7 +249,18 @@
 
 	.form-feedback__title {
 		border-top: none;
+		font-size: 21px;
 	}
+
+	.form-feedback__title--align-left,
+	.form-feedback__title--align-onlyleft{
+		text-align: left;
+		padding-left: 55px;
+	}
+	.form-feedback__title--align-onlyleft{
+		padding-left: 0;
+	}
+
 
 .form-feedback__presentation-wrapper{
 	padding-right: 0;
@@ -282,6 +294,7 @@
 		position: relative;
 		box-sizing: border-box;
 		padding-top: 70px;
+		margin-bottom: 40px;
 		
 		&::before{
 			content: "";
@@ -341,9 +354,124 @@
 		padding: 0 40px;
 }
 
+.form-feedback__label--checkbox {
+	display: inline-block;
+	box-sizing: border-box;
+	padding-right: 80px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.form-feedback__label--checkbox:nth-of-type(2n-1){
+	margin-left: 85px;
+}
 
+.form-feedback__review{
+	width: 100%;
+	margin: 0;
+	margin-bottom: 60px;
+}
 
+.form-feedback__send-form {
+	display: flex;
+	width: 100%;
+	margin-bottom: 100px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 
+}
+.form-feedback__btn {
+	width: 50%;
+	margin: 0;
+}
+.feedback-form__note {
+	display: block;
+	font-weight: 500;
+	text-transform: uppercase;
+}
 
+.feedback-form__note sup {
+	font-size: 110%;
+	top: 0;
+}
 
+}
+
+@media (min-width: $desktop-width){
+	.form-feedback{
+		padding: 0 120px;
+	}
+	.form-feedback__title--align-onlyleft{
+		width: auto;
+		padding-left: 80px;
+	}
+	.form-feedback__title--align-left{
+		width: auto;
+		padding-left: 75px;
+	}
+	.form-feedback__presentation-wrapper{
+		padding-left: 75px;
+	}
+	.form-feedback__title--visibility-hidden{
+		display: inline;
+	}
+
+	.form-feedback__external-wrapper{
+		display: flex;
+	}
+
+	.form-feedback__inside-wrapper{
+	  display: flex;
+		align-content: center;
+		flex-basis: 400px;
+		padding: 0;
+	}
+	.form-feedback__input-error{
+		width: 100%;
+		padding-left: 110px;
+		order: -1;
+		
+	}
+	.form-feedback__label--contacts{
+		padding-left: 0;
+		padding-bottom: 0;
+		align-self: center;
+	}
+
+	.form-feedback__input--contacts{
+		box-sizing: border-box;
+		width: auto;
+		flex-shrink: 2;
+		margin-bottom: 0;
+	}
+	.form-feedback__inside-wrapper::after{
+		bottom: 0;
+		right: 0;
+	}
+	.form-feedback__inside-wrapper--phone::after{
+		right: 80px;
+	}
+
+	.form-feedback__inside-wrapper--email{
+		align-items: flex-end;
+		flex-grow: 1;
+	}
+	.form-feedback__inside-wrapper:nth-child(2n+1){
+		padding-right: 80px;
+	}
+	.form-feedback__label--email{
+		margin-top: 40px;
+	}
+	.form-feedback__label--visibility-hidden{
+		display: none;
+	}
+	.form-feedback__label--checkbox:nth-of-type(2n-1){
+		margin-left: 0;
+	}
+	.form-feedback__label--checkbox{
+		margin: 0;
+		width: 24.5%;
+		padding-right: 0;
+	}
+	
 }

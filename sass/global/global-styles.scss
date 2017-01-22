@@ -70,8 +70,18 @@ input {
 	border: none;
 	outline: none;
 	background-color: $secondary-bg-color;
-	color: $secondary-txt-color
+	color: $secondary-txt-color;
+
+	&:hover {
+		background-color: $btn-bg-color-hover;
+	}
+	&:active {
+		background-color: $btn-bg-color-active;
+		color: #88b6d1;
+	}
 }
+
+
 
 
 .global-wrapper {
