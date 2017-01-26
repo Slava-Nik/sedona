@@ -24,10 +24,20 @@
 	vertical-align: middle;
 }
 
-.main-footer__logo {
+.main-footer__logo-link{
 	display: inline-block;
 	vertical-align: middle;
 }
+.main-footer__logo path {
+	fill: #000000;
+}
+.main-footer__logo:hover path {
+	fill: #81b3d2;
+}
+.main-footer__logo:active path {
+	fill: #b2b2b2;
+}
+
 
 @media (min-width: $tablet-width){
 	.main-footer {

@@ -32,15 +32,16 @@
 	padding-top: 10px;
 	padding-left: 35px;
 	font-size: 14px;
-
-	&::before{
-		content: "";
-		position: absolute;
-		top: 8px;
-		left: 0;
-		width: 26px;
-		height: 26px;
-		background: url("../img/icon-like.svg") no-repeat;
+}
+.posts-item__svg{
+	position: absolute;
+	top: 8px;
+	left: 7px;
+	width: 22px;
+	height: 20px;
+	
+	path{
+		fill: #b2b2b2;
 	}
 }
 
@@ -74,10 +75,14 @@
 		padding-top: 22px;
 		padding-right: 20px;
 		float: right;
+	}
+	.posts-item__svg{
+		top: 18px;
+	  left: 7px;
 
-		&::before {
-			top: 20px;
-		}
+	  path{
+	  	fill: #a9a9a9;
+	  }
 	}
 }
 
@@ -101,5 +106,9 @@
 	.posts-item__likes {
 		color: #ffffff;
 	}
-
+	.posts-item__svg{
+		path{
+	  	fill: #ffffff;
+	  }
+	}
 }

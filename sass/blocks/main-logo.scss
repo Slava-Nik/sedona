@@ -11,5 +11,10 @@
 	.main-logo {
 		top: -59px;
 	}
-	
+}
+@media(min-width: $desktop-width){
+.main-logo {
+		width: 188px;
+	}
+
 }

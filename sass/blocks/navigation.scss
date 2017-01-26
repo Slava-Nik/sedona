@@ -5,6 +5,9 @@
 .navigation--hidden{
 	display: none;
 }
+.navigation--no-js{
+	display: block;
+}
 .navigation__item {
 	float: none;
 }
@@ -29,11 +32,13 @@
 
 .navigation__button-close{
 	position: absolute;
-	top: 20px;
+	top: 17px;
 	right: 20px;
-	width: 22px;
-	height: 22px;
+	width: 25px;
+	height: 25px;
 	background-image: url("../img/icon-cross.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 
@@ -52,6 +57,18 @@
 		display: inline-block;
 		width: 19.5%;
 	}
+	
+	.navigation__item--active .navigation__link{
+		color: #766357;
+		cursor: default;
+		&:hover{
+			color: #604e43;
+		}
+		&:active{
+			color: #f2f2f2;
+		}
+	}
+
 	.navigation__item:nth-child(2){
 		margin-right: 20%;
 	}
@@ -67,6 +84,7 @@
 		}	
 		&:active {
 			background-color: transparent;
+			color: #f2f2f2;
 		}
 	}
 
