@@ -1,1 +1,0 @@
-The adaptive web-site Sedona (using BEM metodology,SASS,Gulp). (PSD has been taken from HTML Academy, thanks to them!)
