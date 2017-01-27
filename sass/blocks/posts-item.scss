@@ -39,10 +39,8 @@
 	left: 7px;
 	width: 22px;
 	height: 20px;
+	fill: #b2b2b2;
 	
-	path{
-		fill: #b2b2b2;
-	}
 }
 
 @media (min-width: $tablet-width){
@@ -79,10 +77,7 @@
 	.posts-item__svg{
 		top: 18px;
 	  left: 7px;
-
-	  path{
-	  	fill: #a9a9a9;
-	  }
+		fill: #a9a9a9;
 	}
 }
 
@@ -107,8 +102,6 @@
 		color: #ffffff;
 	}
 	.posts-item__svg{
-		path{
-	  	fill: #ffffff;
-	  }
+		fill: #ffffff;
 	}
 }

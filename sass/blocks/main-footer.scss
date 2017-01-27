@@ -7,15 +7,13 @@
 }
 
 .main-footer__wrapper {
-	padding-top: 45px;
+	padding-top: 30px;
 }
 
 .main-footer__invitation-tag {
 	padding-bottom: 40px;
 	font-size: 21px;
 }
-
-
 
 .main-footer__text {
 	display: inline-block;
@@ -28,35 +26,45 @@
 	display: inline-block;
 	vertical-align: middle;
 }
-.main-footer__logo path {
+.main-footer__logo  {
 	fill: #000000;
 }
-.main-footer__logo:hover path {
+.main-footer__logo:hover  {
 	fill: #81b3d2;
 }
-.main-footer__logo:active path {
+.main-footer__logo:active  {
 	fill: #b2b2b2;
 }
 
 
 @media (min-width: $tablet-width){
 	.main-footer {
-		padding-left: 7.8%;
-		padding-right: 7.8%;
+		padding-left: 60px;
+		padding-right: 60px;
 	}
+	.main-footer__wrapper{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
 	.main-footer__invitation-tag{
 		display: inline-block;
-		width: calc(100%/3);
 		vertical-align: middle;
 		padding-bottom: 0;
 		text-align: left;
 	}
 	.main-footer__created-wrapper{
 		display: inline-block;
-		width: 31.5%;
 		text-align: right;
-
 	}
+}
 
-
+@media (min-width: $desktop-width){
+	.main-footer {
+		padding-left: 120px;
+		padding-right: 50px;
+	}
 }

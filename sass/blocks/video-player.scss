@@ -70,12 +70,7 @@
 	outline: none;
 }
 .video-player__btn-svg{
-	path{
-		fill: #5c6870;
-	}
-	polygon{
-		fill: #5c6870;
-	}
+	fill: #5c6870;
 }
 
 .video-player__btn--replay {
@@ -129,14 +124,12 @@
     padding-bottom: 25px;
 		order: 4;
 	}
+	.video-player__btn {
+		fill: #ffffff;
+	}
 	.video-player__btn-svg{
-	path{
 		fill: #ffffff;
 	}
-	polygon{
-		fill: #ffffff;
-	}
-}
 
 }
 

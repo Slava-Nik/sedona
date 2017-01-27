@@ -7,6 +7,8 @@ var mqpacker = require("css-mqpacker");
 var minify = require("gulp-csso");
 var rename = require("gulp-rename");
 var imagemin = require("gulp-imagemin");
+var svgmin = require("gulp-svgmin");
+var svgstore = require("gulp-svgstore");
 
 
 gulp.task("style", function() {
@@ -38,9 +40,23 @@ gulp.task("images", function(){
       imagemin.jpegtran({progressive: true})
     ]))
 	.pipe(gulp.dest("img"));
-
-
 });
+
+
+
+gulp.task("symbols", function(){
+	return gulp.src("img/icons/*.svg")
+	.pipe(svgmin())
+	.pipe(svgstore({
+    inlineSvg: true
+  }))
+	.pipe(rename("symbols.svg"))
+	.pipe(gulp.dest("img"));
+});
+
+
+
+
 
 gulp.task("watch", ["style"], function(){
 	gulp.watch("sass/**/*.scss", ["style"]);

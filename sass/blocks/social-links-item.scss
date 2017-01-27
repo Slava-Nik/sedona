@@ -1,19 +1,13 @@
 .social-links-item {
-	display: inline-block;
+	display: inline-flex;
 	width: 47px;
 	height: 47px;
 	margin-right: 8px;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	vertical-align: bottom;
+	justify-content: center;
+	align-items: center;
+}
 
-	&--twitter {
-		background-image: url("../img/icon-twitter.svg");
-	}
-	&--facebook {
-		background-image: url("../img/icon-facebook.svg");
-	}
-	&--youtube {
-		background-image: url("../img/icon-youtube.svg");
-	}
-
+.social-links-item__svg {
+	fill: #fff;
 }
