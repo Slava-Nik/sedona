@@ -13,7 +13,7 @@
 		width: 40px;
 		height: 47px;
 		background-position: 50% 50%;
-		background-size: 100%;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
 	}
 
@@ -59,15 +59,15 @@
 
 	.advantages-list-item{
 		float: left;
-		width: 32%;
+		width: calc(100%/3);
 		padding-left: 0;
 		text-align: center;
 
 		&--house::before,
 		&--food::before,
 		&--gift::before {
-			width: 69px;
-			height: 81px;
+			width: 75px;
+			height: 76px;
 			top: 0;
 			left: 36%;
 		}
