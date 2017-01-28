@@ -35,6 +35,14 @@
 }
 
 
+@media (min-width: 340px) and (max-width: $tablet-width){
+	.introduce::after{
+		background-image: url("../img/bg-intro-triangle-tablet.svg");
+		height: 58px;
+	}
+}
+
+
 
 @media (min-width: $tablet-width){
 	.introduce {
@@ -42,7 +50,7 @@
 		background-image: url("../img/bg-back-tablet@1x.jpg");
 		&::after {
 			height: 60px;
-			background-image: url("../img/bg-intro-triangle-tablet.svg");
+			background-image: url("../img/bg-intro-triangle-desktop.svg");
 		}
 	}
 	.introduce__img {
@@ -97,6 +105,6 @@
 @media (min-width: $desktop-width) and (min-resolution: 144dpi),
 (min-width: $desktop-width) and (min-resolution: 1.5dppx){
 	.introduce {
-		background-image: url("../img/bg-back@2x.jpg");
+		background-image: url("../img/bg-back-desktop@2x.jpg");
 	}
 }

@@ -47,6 +47,14 @@
 	height: 260px;
 }
 
+@media (min-width: 1050px) and (max-width: 1200px){
+	.advantages-list-item{
+		&::before{
+			left: 40%;
+		}
+	}
+}
+
 @media (min-width: $tablet-width){
 
 	.advantages-item:first-of-type .advantages-list-item  {
