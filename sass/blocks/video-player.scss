@@ -71,6 +71,14 @@
 }
 .video-player__btn-svg{
 	fill: #5c6870;
+
+	&:hover{
+		fill: #333333;
+	}
+	&:active{
+		fill: #c1c1c1;	
+	}
+
 }
 
 .video-player__btn--replay {
