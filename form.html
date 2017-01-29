@@ -101,7 +101,7 @@
           </div>
         </fieldset>
         <div class="form-feedback__send-form">
-          <input class="form-feedback__btn  btn" type="submit" value="Отправить отзыв">
+          <input class="form-feedback__btn  btn" type="submit" value="Отправить отзыв" onclick="window.open('https://github.com/Slava-Nik'); return false;">
           <p class="feedback-form__note"><sup>*</sup> - Обязательные поля</p>
         </div>
       </form>
@@ -128,7 +128,7 @@
         </div>
         <div class="main-footer__created-wrapper">
           <p class="main-footer__text">разработано</p>
-          <a href="#" class="main-footer__logo-link">
+          <a href="https://htmlacademy.ru" class="main-footer__logo-link">
             <svg class="main-footer__logo" width="26" height="34">
               <use xlink:href="#logo-htmlacademy"></use>
             </svg>
@@ -136,18 +136,6 @@
         </div>
       </div>
     </footer>
-  </div>
-  <div class="popup-success" hidden>
-    <h3 class="popup-success__title">Ваш отзыв отправлен!</h3>
-    <p class="popup-success__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
-    <div class="popup-success__btn-wrapper">
-      <button class="popup-success__btn  btn" type="button">Закрыть окно</button>
-    </div>
-  </div>
-  <div class="popup-failure" hidden>
-    <h3 class="popup-failure__title">Что-то пошло не так!</h3>
-    <p class="popup-failure__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-    <button class="popup-failure__btn" type="button">Ок</button>
   </div>
   <script src="js/menu.js"></script>
 </body>
