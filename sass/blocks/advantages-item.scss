@@ -23,8 +23,14 @@
  }
 
 .advantages-item__content{
+	width: 100%;
+	max-width: 290px;
+	margin: 0 auto;
 	padding-bottom: 40px;
 	font-weight: 500;
+}
+.advantages-item__content--narrow{
+	max-width: 240px;
 }
 
 
@@ -57,16 +63,13 @@
 }
 
 .advantages-item__photo {
+	display: block;
 	width: 100%;
-	max-width: 380px;
 	height: 260px;
+	margin: 0 auto;
 }
 
-@media(min-width: 512px) and (max-width: 768px){
-	.advantages-item__photo{
-		max-width: 570px;
-	}
-}
+
 
 .advantages-item--second-article{
 	background-color: #eeeeee;
