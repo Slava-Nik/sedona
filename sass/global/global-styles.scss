@@ -90,19 +90,12 @@ input {
 }
 
 @media (min-width: $tablet-width){
-	body{
-		min-width: $tablet-width;
-	}
 	.global-wrapper {
 		width: 100%;
 		margin: 0 auto;
 	}
 }
-
 @media (min-width: $desktop-width){
-	body{
-		min-width: $desktop-width;
-	}
 	.global-wrapper {
 		width: $desktop-width;
 		margin: 0 auto;

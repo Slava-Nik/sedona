@@ -206,15 +206,19 @@
   	background-color: #d5d5d5;
 }
 
-
+.form-feedback__set--review{
+	padding: 0 20px;
+}
+.form-feedback__review-wrapper{
+	padding: 0 20px;
+}
 .form-feedback__review {
 	box-sizing: border-box;
-	width: 86%;
+	width: 100%;
 	height: 160px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 5px;
-	margin: 0 20px;
 	margin-bottom: 50px;
 	border: none;
 	font-size: 18px;
@@ -223,11 +227,16 @@
 	outline: none;
 }
 
+.form-feedback__send-form{
+	padding: 0 20px;
+}
+
+
 .form-feedback__btn {
 	display: block;
-	width: 86%;
+	width: 100%;
+	max-width: 500px;
 	margin: 0 auto;
-	margin-bottom: 80px;
 	padding:  16px 0px;
 	font-size: 21px;
 	text-transform: uppercase;
@@ -378,12 +387,20 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
 
+.form-feedback__btn{
+	max-width: 400px;
+	margin: 0 0;
 }
-.form-feedback__btn {
-	width: 50%;
-	margin: 0;
+
+@media(min-width: 900px) and (max-width: $desktop-width){
+	.form-feedback__btn{
+		max-width: 500px;
+	}
 }
+
+
 .feedback-form__note {
 	display: block;
 	font-weight: 500;

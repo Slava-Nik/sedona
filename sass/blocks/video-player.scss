@@ -1,5 +1,7 @@
-.video-player {
+.video-player__wrapper{
 	position: relative;
+	width: 320px;
+	margin: 0 auto;
 }
 
 .video-player__image {
@@ -96,6 +98,10 @@
 }
 
 @media (min-width: $tablet-width){
+	.video-player__wrapper{
+		width: 650px;
+	}
+
 	.video-player__playbar{
 		width: 100%;
 		left: 0;
@@ -142,9 +148,8 @@
 }
 
 @media (min-width: $desktop-width){
-	.video-player  {
+	.video-player__wrapper{
 		width: 800px;
-		margin: 0 auto;
 	}
 	.video-player__indicator-panel {
 		width: 545px;

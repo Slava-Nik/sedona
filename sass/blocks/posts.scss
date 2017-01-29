@@ -1,9 +1,13 @@
-.posts {
-	
-}
 
 @media (min-width: $tablet-width){
 	.posts{
 		font-size: 0;
+		max-width: 650px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: $desktop-width){
+	.posts{
+		max-width: none;
 	}
 }

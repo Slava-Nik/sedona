@@ -13,24 +13,24 @@
 }
 
 .presentation__content {
+	width: 100%;
+	max-width: 270px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	padding-left: 20px;
-	padding-right: 20px;
 	font-weight: 500;
 	font-size: 14px;
 }
 
 @media (min-width: $tablet-width){
 	.presentation {
-		padding-top: 45px;
+		padding-top: 60px;
 	}
 	.presentation__title{
 		font-size: 30px;
 	}
 	.presentation__content{
 		margin-bottom: 80px;
-		width: 65%;
+		max-width: 380px;
 	}
 }
 
